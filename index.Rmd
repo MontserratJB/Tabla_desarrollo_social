@@ -33,7 +33,7 @@ library(plotly)
 # Lectura de un archivo CSV con datos de Recolección de residuos solidos 2019
 tabla <-
   st_read(
-    "/vsicurl/https://raw.githubusercontent.com/MontserratJB/Tablas_DA_2022/master/Lista%20de%20Asociaciones%20y%20Comites%20de%20Vecinos.csv"
+    "/vsicurl/https://raw.githubusercontent.com/MontserratJB/Tabla_desarrollo_social/master/Lista%20de%20Asociaciones%20y%20Comites%20de%20Vecinos.csv"
     ,
     quiet = TRUE
   )
